@@ -1,0 +1,113 @@
+.root {
+  flex-direction: row;
+  display: flex;
+  width: 271px;
+  height: 45px;
+  max-width: 100%;
+  background: #ffffff;
+  position: relative;
+  padding: 0px 0px 0px 10px;
+  border-width: 1px;
+  border-style: none;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: calc(0px - var(--token-PUZ0Gm_-j_xFG));
+  width: calc(100% + var(--token-PUZ0Gm_-j_xFG));
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: var(--token-PUZ0Gm_-j_xFG);
+}
+.root:hover {
+  cursor: pointer;
+}
+.freeBox__dMeFz {
+  display: block;
+  position: relative;
+  width: 29px;
+  height: 29px;
+  max-width: 100%;
+  left: auto;
+  top: auto;
+  background: none;
+  flex-shrink: 0;
+  border-radius: 50px;
+  padding: 0px;
+  border: 1px solid #cacaca;
+}
+.freeBoxstates_completed__dMeFzYfMge {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-row-gap: 0px;
+}
+.root:hover .freeBox__dMeFz {
+  background: #ffffffbd;
+  cursor: pointer;
+  border-color: #868686;
+}
+.img {
+  position: absolute;
+  plasmic-display-none: true;
+  object-fit: cover;
+  max-width: 100%;
+  left: 3px;
+  top: 6px;
+  margin-right: 0px;
+  height: 16px;
+}
+.img > picture > img {
+  object-fit: cover;
+}
+.img > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.imgstates_completed {
+  position: relative;
+  left: auto;
+  top: auto;
+  display: inline-block !important;
+}
+.freeBox__vUeNz {
+  position: relative;
+  width: 195px;
+  height: auto;
+  max-width: 800px;
+  left: auto;
+  top: auto;
+  align-self: center;
+  margin-right: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+}
+.slotTargetChildrenstates_completed {
+  color: #9e9e9e;
+}
+.slotTargetChildrenstates_completed > .__wab_text,
+.slotTargetChildrenstates_completed > .__wab_slot-string-wrapper,
+.slotTargetChildrenstates_completed > .__wab_slot > .__wab_text,
+.slotTargetChildrenstates_completed > .__wab_slot > .__wab_slot-string-wrapper,
+.slotTargetChildrenstates_completed > .__wab_slot > .__wab_slot > .__wab_text,
+.slotTargetChildrenstates_completed
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot-string-wrapper,
+.slotTargetChildrenstates_completed
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_text,
+.slotTargetChildrenstates_completed
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot-string-wrapper {
+  text-decoration-line: line-through;
+}
